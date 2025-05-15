@@ -1,0 +1,1763 @@
+@media (max-width: 1799px) {
+    .col-x {
+        width: 50%;
+    }
+
+    .home-application-row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-application-bg img {
+        width: 56%;
+    }
+
+    .special-offers-item {
+        padding: 42px 30px;
+        margin: 0 auto;
+    }
+
+    .btn-prev {
+        left: 0;
+    }
+
+    .special-offers-item-buttons {
+        margin: 0 -30px;
+    }
+
+    .home-application {
+        padding-bottom: 240px;
+    }
+
+    .home-ellipse-col img {
+        width: 90%;
+    }
+
+    .home-participation-img-1 img {
+        left: 10px;
+        width: 80px;
+    }
+
+    .arrow-prev {
+        left: -50px;
+    }
+
+    .arrow-next {
+        right: -50px;
+    }
+
+    .home-contest-row-item-polu-cicrle {
+        display: none;
+    }
+
+    .home-contest-row-item-blur-star {
+        left: 20px;
+    }
+
+    .tri-color-1 {
+        display: none;
+    }
+
+    .tri-color {
+        width: 35%;
+    }
+
+    .about-ellipse img {
+        width: 100%;
+    }
+
+    .about-city {
+        border-radius: 100px;
+    }
+
+    .festival-info .container {
+        padding: 0 230px;
+    }
+
+    .festival-info-img-1 {
+        width: 250px;
+        height: 400px;
+    }
+
+    .festival-info-img-2 {
+        bottom: 22%;
+    }
+
+    .festival-img-column--1 .blue-polu-circle, .festival-img-column--2 .blue-polu-circle, .festival-img-column--3 .blue-polu-circle,.festival-img-column--3 .red-star {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) {
+    .header-nav a {
+        font-size: 10px;
+    }
+
+    .header-telefon a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .special-offers-item-buttons {
+        margin: 0;
+    }
+
+    .col-xxl {
+        padding: 0 16px;
+        flex: 0 0 auto;
+        width: 8.33%;    
+    }
+
+    .col-xxl-2 {
+        width: 16.66%; 
+    }
+
+    .col-xxl-3 {
+        width: 25%; 
+    }
+
+    .col-xxl-3_5 {
+        width: 35%;
+    }
+
+    .col-xxl-4 {
+        width: 33.33%; 
+    }
+
+    .col-xxl-5 {
+        width: 41.66%; 
+    }
+
+    .col-xxl-6 {
+        width: 50%;
+    }
+
+    .col-xxl-7 {
+        width: 58.33%; 
+    }
+
+    .col-xxl-8 {
+        width: 66.66%; 
+    }
+
+    .col-xxl-9 {
+        width: 75%; 
+    }
+
+    .col-xxl-10 {
+        width: 83.33%; 
+    }
+
+    .col-xxl-11 {
+        width: 91.66%; 
+    }
+
+    .col-xxl-12 {
+        width: 100%; 
+    }
+
+    .home-application-row {
+        justify-content: space-between;
+    }
+
+    .special-offers-item-buttons {
+        margin: 0 20px;
+    }
+
+    .special-offers-item-span {
+        font-size: 26px;
+    }
+
+    .special-offers-item p {
+        font-size: 19px;
+    }
+
+    .special-offers-item {
+        padding: 42px 47px;
+    }
+
+    .home-participation-img-2 img, .home-participation-img-1 img {
+        display: none;
+    }
+
+    .home-support-row-2 {
+        padding: 0 25px;
+    }
+
+    .home-reviews-row {
+        justify-content: space-between;
+    }
+    
+    .arrow-prev {
+        left: 15px;
+    }
+
+    .arrow-next {
+        right: 15px;
+    }
+
+    .home-reviews-arrow img {
+        z-index: 200;
+        top: 150px;
+    }
+
+    .home-reviews-arrow, .home-reviews h6 {
+        display: none;
+    }
+
+    .home-reviews-header-xxl {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+     .home-reviews-header-xxl .home-reviews-arrow, .home-reviews-header-xxl h6 {
+        display: block;
+    }
+
+    .home-reviews-header-xxl .home-reviews-arrow img {
+        position: relative;
+        top: 0;
+    }
+
+    .home-reviews-arrow {
+        justify-content: space-between;
+    }
+
+    .arrow-prev {
+        left: -50px;
+    }
+
+    .container-bg span {
+        margin-bottom: 40px;
+    }
+
+    .home-form {
+        padding: 0 15px 110px 15px;
+    }
+
+    .footer-row {
+        flex-wrap: wrap;
+    }
+
+    .footer-row-item {
+        justify-content: space-between;
+    }
+
+    .footer-row-item span {
+        /* display: block; */
+        margin: 0;
+    }
+
+    .footer-row-item b {
+        margin: 0;
+    }
+
+    .footer-row-item:nth-child(2) b, .footer-row-item:nth-child(1) b {
+        margin-bottom: 15px;
+    }
+
+    .footer-row-item p {
+        margin-bottom: 0;
+    }
+
+    .footer-row {
+        gap: 30px 0;
+    }
+
+    .footer-sochial-icon {
+        margin-top: 10px;
+    }
+
+    .footer-row-item:nth-child(3) b {
+        margin-bottom: 10px;
+    }
+
+    .footer-row-2 {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .tri-color-2 {
+        width: 40%;
+        right: 95px;
+    }
+
+    .home-form-2-arrow {
+        margin: 0 -15px;
+        z-index: 100;
+    }
+
+    .russian-programm-item-text p br {
+        display: none;
+    }
+
+    .footer-row-item b {
+        margin-bottom: 15px !important;
+    }
+
+    .russian-programm-bilets .row {
+        margin: 0;
+    }
+
+    .about-city-row {
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .about-city h5 {
+        text-align: center;
+    }
+
+    .about-city b br {
+        display: none;
+    }
+
+    .blog-column {
+        padding: 0 16px;
+    }
+
+    .typiacal-info-slider img {
+        width: 100%;
+    }
+
+    .turnir-last {
+        padding-bottom: 150px;
+    }
+
+    .turnir-2-info-img--1, .turnir-2-info-img--2, .turnir-2-info-img--3, .turnir-2-info-img--4 {
+        display: none;
+    }
+
+    .festival-info-img-1 {
+        display: none;
+    }
+
+    .festival-info .container {
+        padding: 0 16px !important;
+    }
+
+    .festival-info p {
+        padding-right: 360px;
+    }
+
+    .festival-last-slider-prev {
+        left: -40px;
+    }
+
+    .festival-last-slider-next {
+        right: -40px;
+    }
+
+    .festival-info .container {
+        padding-right: 300px;
+    }
+
+    .festival-img-row, .festival-img-column {
+        gap: 15px;
+    }
+
+    .loader {
+        margin: 40px 0 50px;
+    }
+
+    .award-price-row {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .award-price-row {
+        margin-bottom: 25px;
+    }
+
+    .blur-star-1 {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .col-xl {
+        padding: 0 16px;
+        flex: 0 0 auto;
+        width: 8.33%;
+    }
+
+    .col-xl-2 {
+        width: 16.66%; 
+    }
+
+    .col-xl-3 {
+        width: 25%; 
+    }
+
+    .col-xl-4 {
+        width: 33.33%; 
+    }
+
+    .col-xl-5 {
+        width: 41.66%; 
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.33%; 
+    }
+
+    .col-xl-8 {
+        width: 66.66%; 
+    }
+
+    .col-xl-9 {
+        width: 75%; 
+    }
+
+    .col-xl-10 {
+        width: 83.33%; 
+    }
+
+    .col-xl-11 {
+        width: 91.66%; 
+    }
+
+    .col-xl-12 {
+        width: 100%; 
+    }
+
+    .burger-checkbox {
+        position: absolute;
+        visibility: hidden;  
+    }
+    
+    .burger {
+        position: relative;
+        z-index: 100;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        border: none;
+        background: transparent;
+        width: 40px;
+        height: 26px;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: '';
+        left: 0;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 10px;
+        background: #000000;
+    }
+
+    .burger::before {
+        top: 0;
+        box-shadow: 0 11px 0 #000000;
+        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    }
+
+    .burger::after {
+        bottom: 0;
+        transition: bottom .3s .15s, transform .3s;
+    }
+
+    .burger-checkbox:checked + .burger::before {
+        top: 11px;
+        transform: rotate(45deg);
+        box-shadow: 0 6px 0 rgba(0,0,0,0);
+        transition: box-shadow .15s, top .3s, transform .3s .15s;
+    }
+
+    .burger-checkbox:checked + .burger::after {
+        bottom: 11px;
+        transform: rotate(-45deg);
+        transition: bottom .3s, transform .3s .15s;
+    }
+
+    .menu-list {
+        top: -25px;
+        right: -20px;
+        position: absolute;
+        display: grid;
+        border-radius: 10px;
+        gap: 15px;
+        padding: 90px 0 60px;
+        margin: 0;
+        background: rgb(168, 168, 168);
+        list-style-type: none;
+        transform: translateX(100vw);
+        transition: .3s;
+        width: 350px;
+        z-index: 99;
+    }
+
+    .menu {
+        position: relative;
+        /* overflow: hidden; */
+        display: block;
+    }
+
+    .menu-item {
+        display: block;
+        padding: 8px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        background: rgba(160, 153, 153, 0.2);
+    }
+
+    .burger-checkbox:checked ~ .menu-list {
+        transform: translateX(0);
+    }
+
+    .li-modal button {
+        padding: 15px 30px;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.4;
+        background: #E30613;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .header-social-contact, .header-telefon, .header-button, .header-nav, .home-contest-img-3 {
+        display: none;
+    }
+
+    .header-row {
+        align-items: center;
+    }
+
+    .menu-list-telefon {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        color: #0A1124;
+        margin: 0 auto;
+    }
+
+    .menu .header-social-icon {
+        justify-content: center;
+    }
+
+    /* .menu {
+        overflow-x: hidden; 
+    } */
+
+    .menu .header-social-icon a img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .home-application-bg img {
+        display: none;
+    }
+
+    .home-application-row {
+        flex-direction: column-reverse;
+    }
+
+    .special-offers-item {
+        max-width: 100%;
+    }
+
+    .special-offers-item-buttons {
+        margin: 0 -40px;
+    }
+
+    .home-application h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .home-contest-row-item {
+        flex-direction: column;
+    }
+
+    .home-contest-row-item-img img {
+        width: 100%;
+        height: 400px;
+        border-radius: 30px;
+    }
+
+    .home-contest-row-item-img-2 img, .home-contest-img-1, .home-contest-img-2, .home-ellipse, .home-application-star img {
+        display: none;
+    }
+
+    .home-application {
+        padding-bottom: 50px;
+    }
+
+    .home-participation .row .col b {
+        font-size: 15px;
+    }
+
+    .home-support-row-1 {
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .home-support-row-2 {
+        flex-wrap: wrap;
+        gap: 40px 0;
+    }
+
+    .home-support-row-2 img{
+        width: 30%;
+    }
+
+    .home-form-2-arrow {
+        margin: 0 -20px;
+        z-index: 100;
+        bottom: -145px;
+    }
+
+    .blur-star-1 {
+        display: none;
+    }
+
+    .tri-color {
+        display: none;
+    }
+
+    .russian-competition h3 br {
+        display: none;
+    }
+
+    .russian-competition .container {
+        text-align: center;
+    }
+
+    .russian-competition-carts {
+        justify-content: center;
+    }
+
+    .russian-competition-price, .russian-competition-footer-2 {
+        display: none;
+    }
+
+    .russian-competition-price-xx, .russian-competition-price-xx .russian-competition-price {
+        display: block;
+        margin: 0;
+    }
+
+    .russian-competition-footer {
+        justify-content: center;
+        margin-top: 45px;
+    }
+    
+    .about-city-row .col-2_5 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-city-row .col-2_5 span {
+        font-size: 12px;
+    }
+
+    .blog-row-item-footer span {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .jury-row-img-red-star, .jury-row-img-polu-circle, .jury-row-img-polu-circle-2, .jury-row-img-polu-circle-3 {
+        display: none;
+    }
+
+    .jury-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .turnir-last h5 {
+        margin-bottom: 80px;
+    }
+
+    .turnir-last {
+        padding-bottom: 90px;
+    }
+
+    .festival-info-img-2 {
+        bottom: 17%;
+    }
+
+    .award-price-row {
+        flex-wrap: wrap;
+        gap: 50px 0;
+        justify-content: flex-start;
+        gap: 25px 20px;
+    }
+
+    .award-price h4 {
+        text-align: center;
+    }
+
+    .award-price-row .col-4 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .award-price-row-item-header img {
+        width: 100%;
+    }
+
+    .award-price-row-item-header-text {
+        padding: 24px;
+    }
+
+    .award-price-row-item-footer {
+        padding-left: 24px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .col-lg {
+        padding: 0 16px;
+        flex: 0 0 auto;
+        width: 8.33%;
+    }
+    
+    .col-lg-2 {
+        width: 16.66%; 
+    }
+    
+    .col-lg-3 {
+        width: 25%; 
+    }
+    
+    .col-lg-4 {
+        width: 33.33%; 
+    }
+    
+    .col-lg-5 {
+        width: 41.66%; 
+    }
+    
+    .col-lg-6 {
+        width: 50%;
+    }
+    
+    .col-lg-7 {
+        width: 58.33%; 
+    }
+    
+    .col-lg-8 {
+        width: 66.66%; 
+    }
+    
+    .col-lg-9 {
+        width: 75%; 
+    }
+    
+    .col-lg-10 {
+        width: 83.33%; 
+    }
+    
+    .col-lg-11 {
+        width: 91.66%; 
+    }
+    
+    .col-lg-12 {
+        width: 100% !important; 
+    }
+
+    .container-bg span, .container-bg h6 {
+        text-align: center;
+    }
+
+    .home-form-row--1 {
+        flex-wrap: wrap;   
+    }
+
+    .home-form-row--1 input {
+        width: 45% !important;
+        max-width: none;
+    }
+
+    .home-form-2-arrow {
+        bottom: -165px;
+    }
+
+    .russian-info-header-button {
+        text-align: center;
+    }
+
+    .russian-programm-container {
+        background-size: 100%;
+    }
+
+    .russian-programm-container b {
+        font-size: 16px;
+    }
+
+    .russian-programm-container span {
+        font-size: 12px;
+    }
+
+    .russian-programm-bilets .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .russian-programm-bilets-col {
+        padding-left: 0;
+    }
+
+    .russian-programm-bilets .row:first-child {
+        flex-direction: row;
+    }
+
+    .russian-programm-bilets .row span br {
+        display: none;
+    }
+
+    .about-city-row {
+        flex-wrap: wrap;
+    }
+
+    .about-support-slider-column .row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-city {
+        border-radius: 30px;
+    }
+
+    .blog-column  {
+        display: none;
+    }
+
+    .blog-column-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 16px;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .blog-row-item {
+        width: 45%;
+    }
+
+    .blog-mailing-header img {
+        display: none;
+    }
+
+    .blog-mailing-header h6 {
+        margin: 0 auto;    
+        margin-bottom: 30px;
+    }
+
+    .about-city-row .col-2_5 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-city-row {
+        gap: 30px;
+    }
+
+    .blog-row-item-footer span {
+        font-size: 13px;
+    }
+
+    .turnir-2-info h2 {
+        text-align: center;
+    }
+
+    .russian-competition-header {
+        justify-content: center;
+    }
+
+    .festival-info-img-2 {
+        display: none;
+    }
+
+    .festival-info p {
+        padding-right: 0;
+    }
+
+    .russian-competition-header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .festival-last-slider-item-footer span br {
+        display: none;
+    }
+
+    .festival-last-slider-item-footer span {
+        padding-right: 100px;
+        margin-bottom: 10px;
+    }
+
+    .award-price-row {
+        justify-content: space-between;
+        margin: 0 40px;
+        gap: 50px 0;
+    }
+
+ }
+
+
+@media (max-width:767px) {
+    .col-md {
+        padding: 0 16px;
+        flex: 0 0 auto;
+        width: 8.33%;
+    }
+    
+    .col-md-2 {
+        width: 16.66%; 
+    }
+    
+    .col-md-3 {
+        width: 25%; 
+    }
+    
+    .col-md-4 {
+        width: 33.33%; 
+    }
+    
+    .col-md-5 {
+        width: 41.66%; 
+    }
+    
+    .col-md-6 {
+        width: 50%;
+    }
+    
+    .col-md-7 {
+        width: 58.33%; 
+    }
+    
+    .col-md-8 {
+        width: 66.66%; 
+    }
+    
+    .col-md-9 {
+        width: 75%; 
+    }
+    
+    .col-md-10 {
+        width: 83.33%; 
+    }
+    
+    .col-md-11 {
+        width: 91.66%; 
+    }
+    
+    .col-md-12 {
+        width: 100% !important; 
+    }
+
+    .home-contest-row-item-img img {
+        display: none;
+    }
+
+    .home-contest-row-item-text-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-contest-row-item-text-footer {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+
+    .home-contest h2, .home-application h1, .home-info h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .special-offers-item-buttons {
+        margin: 0;
+    }
+
+    .home-info-row-item {
+        padding: 25px 40px;
+        font-size: 16px;
+    }
+
+    .home-advantages .row {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px 0;
+    }
+
+    .home-participation .row .col img {
+        margin: 0 auto 24px;
+    }
+
+    .home-participation .row .col span {
+        margin: 0 auto;
+    }
+
+    .home-participation .row .col b {
+        margin: 0 auto 20px;
+    }
+
+    .home-support-row-1 {
+        flex-wrap: wrap;
+    }
+
+    .container-bg span {
+        font-size: 14px;
+    }
+
+    .home-form-row--2 {
+        flex-direction: column-reverse;
+    }
+
+    .footer-row-item {
+        gap: 14px;
+    }
+
+    .footer-row-item-input, .footer-row-2 {
+        flex-direction: column;
+    }
+
+    .footer-row-item-input input {
+        width: 100%;
+    }
+
+    .footer-row-item-input button {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer-row-2-item, .footer-row-2 {
+        padding: 10px 0;
+    }
+
+    .form-checkbox {
+        width: 15px;
+        height: 13px;
+    }
+
+    .home-form-2-row-item span b {
+        font-size: 14px;
+    }
+
+    .home-form-2-arrow {
+        display: none;
+    }
+
+    .russian-info-header-button.btn_active, .russian-info-header-button {
+        padding: 20px 10px;
+    }
+
+    .russian-programm-container {
+        background: #0c54a0;
+    }
+
+    .russian-programm-bilets .row {
+        padding: 15px 20px;
+    }
+
+    .russian-programm-bilets .row span {
+        font-size: 12px;
+    }
+
+    .footer-row-item-input, .footer-row-2 {
+        width: 100%;
+    }
+
+    .footer-row-2-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .russian-competition-footer {
+        flex-direction: column;
+    }
+
+    .about-city-row {
+        gap: 10px 0;
+    }
+
+    .about-city b {
+        font-size: 30px;
+    }
+
+    .about-city-row-2 {
+        flex-direction: column;
+    }
+
+    .about-task-wrapper-block p {
+        font-size: 13px;
+    }
+
+    .about-info h2 {
+        font-size: 25px;
+    }
+
+    .about-info-direktor-text p {
+        font-size: 10px;
+    }
+
+    .about-info-row {
+        flex-direction: column;
+    }
+
+    .home-support-modal-img-1-item img {
+        width: 250px;
+    }
+
+    .blog-mailing-row {
+        flex-direction: column;
+    }
+
+    .blog-mailing-email, .blog-mailing-user {
+        width: 100%;
+    }
+
+    .typiacal-info-text {
+        margin-left: 0;
+    }
+
+    .blog-row-item-footer {
+        padding: 0 26px 15px;
+    }
+
+    .jury-row-img img {
+        width: 200px;
+    }
+
+    .about-city-row .col-2_5 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .turnir-last {
+        padding-bottom: 20px;
+    }
+
+    .turnir-last h5 {
+        margin-bottom: 40px;
+    }
+
+    .blog-row-item-footer span {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .blog-row-item-footer b {
+        font-size: 10px;
+    }
+
+    .blog-column-2 {
+        justify-content: space-around;
+    }
+
+    .festival-img-row {
+        flex-wrap: wrap;
+    }
+
+    .festival-info h2 br {
+        display: none;
+    }
+
+    .festival-info h2 {
+        font-size: 25px;
+    }
+
+    .award-price-row .col-4 {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .col-sm {
+        padding: 0 16px;
+        flex: 0 0 auto;
+        width: 8.33%;
+    }
+    
+    .col-sm-2 {
+        width: 16.66%; 
+    }
+    
+    .col-sm-3 {
+        width: 25%; 
+    }
+    
+    .col-sm-4 {
+        width: 33.33%; 
+    }
+    
+    .col-sm-5 {
+        width: 41.66%; 
+    }
+    
+    .col-sm-6 {
+        width: 50%;
+    }
+    
+    .col-sm-7 {
+        width: 58.33%; 
+    }
+    
+    .col-sm-8 {
+        width: 66.66%; 
+    }
+    
+    .col-sm-9 {
+        width: 75%; 
+    }
+    
+    .col-sm-10 {
+        width: 83.33%; 
+    }
+    
+    .col-sm-11 {
+        width: 91.66%; 
+    }
+    
+    .col-sm-12 {
+        width: 100%; 
+    }
+
+    .home-contest h2, .home-application h1, .home-info h4 {
+        font-size: 20px;
+    }
+
+    .home-application {
+        padding-top: 120px;
+    }
+
+    .home-application-row {
+        margin: 0 -16px;
+    }
+
+    .special-offers-item {
+        padding: 30px;
+    }
+
+    .special-offers-item-span {
+        font-size: 17px;
+    }
+
+    .special-offers-item p {
+        font-size: 12px;
+    }
+
+    .special-offers-item--2 {
+        font-size: 9px;
+    }
+
+    .special-offers-item-price b {
+        font-size: 18px;
+    }
+
+    .special-offers-item-price {
+        justify-content: space-around;
+    }
+
+    .special-offers-item-footer {
+        flex-direction: column;
+    }
+
+    .special-offers-item-footer button:first-child, .special-offers-item-footer button:last-child {
+        padding: 16px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .special-offers-item-buttons img {
+        width: 15px;
+    }
+
+    .home-contest-row-item-text {
+        padding: 20px;
+    }
+
+    .home-contest-row-item-text-footer span img {
+        width: 40px;
+    }
+
+    .home-contest-row-item-text-footer span {
+        font-size: 12px;
+    }
+
+    .home-contest-row-button {
+        font-weight: 600;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .home-info-row-item {
+        font-size: 9px;
+        padding: 15px 24px;
+    }
+
+    .home-advantages h4 {
+        font-size: 20px;
+    }
+
+    .home-participation h5, .home-support h5 {
+        font-size: 20px;
+    }
+
+    .home-reviews h6 {
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin: 0;
+    }
+
+    .home-reviews-header-xxl {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .home-reviews-header-xxl .home-reviews-arrow img {
+        width: 20px;
+    }
+
+    .arrow-prev {
+        left: -20px;
+    }
+
+    .home-reviews-row-item-footer b {
+        font-size: 11px;
+    }
+
+    .home-reviews-row-button {
+        font-size: 12px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .home-reviews-row-item-bg {
+        padding: 32px 20px;
+    }
+
+    .home-reviews-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-reviews-row-footer-button {
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-bg {
+        padding: 20px;
+    }
+
+    .container-bg h6 {
+        font-size: 18px;
+    }
+
+    .container-bg span {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .home-form-row--1 input {
+        width: 100% !important;
+    }
+
+    .form-label {
+        font-size: 8px;
+    }
+
+    .form-checkbox {
+        width: 16px;
+        height: 10px;
+        margin-right: 10px;
+        z-index: 100;
+    }
+
+    .form-checkbox::before {
+        top: 42%;
+        font-size: 8px;
+    }
+
+    .footer-row-item span {
+        flex-direction: column;
+    }
+
+    .footer-row-item b {
+        font-size: 25px;
+    }
+
+    .menu-list {
+        width: 300px;
+    }
+
+    .home-contest-row-item-text-header b, .home-contest-row-item-text p {
+        font-size: 12px;
+    }
+
+    .home-contest-row-item-text-header span {
+        font-size: 10px;
+    }
+
+    .home-contest-row-item-text-footer button {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        display: block;
+        font-weight: 500;
+    }
+
+    .home-form-2 h6 {
+        font-size: 17px;
+    }
+
+    .footer-row-item-input, .footer-row-2 {
+        width: 100%;
+    }
+
+    .footer-row-2-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .russian-competition h3 {
+        font-size: 14px;
+    }
+
+    .russian-competition-header, .russian-competition-carts {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .russian-competition-carts-item img {
+        width: 35px;
+    }
+
+    .russian-competition-footer button {
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .russian-info-header {
+        flex-wrap: wrap;
+    }
+
+    .russian-programm-item-header span, .russian-programm-item-3 b {
+        font-size: 12px;
+    }
+
+    .russian-programm-item {
+        gap: 10px;
+    }
+
+    .russian-programm-item-text span, .russian-programm-item-text p, .russian-programm-item-3 b span p {
+        font-size: 10px;
+    }
+
+    .russian-programm-item-3 b {
+        align-items: start;
+    }
+
+    .russian-programm-item-header span {
+        font-size: 14px;
+    }
+
+    .russian-programm-item-btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        font-weight: 500;
+    }
+
+    .russian-programm-container {
+        border-radius: 40px;
+    }
+
+    .russian-programm-container b {
+        font-size: 10px;
+    }
+
+    .russian-programm-container span {
+        font-size: 11px;
+    }
+
+    .russian-programm-bilets .row:first-child {
+        text-align: center;
+        align-items: end;
+    }
+
+    .russian-programm-bilets .row b {
+        font-size: 10px;
+    }
+
+    .russian-programm-bilets .row span {
+        font-size: 11px;
+    }
+
+    .russian-programm-bilets-col button {
+        font-size: 10px;
+    }
+
+    .russian-programm-included-item ul {
+        font-size: 10px;
+    }
+
+    .russian-programm-item img {
+        width: 35px;
+    }
+
+    .russian-programm-item-header {
+        gap: 20px;
+    }
+
+    .russian-programm-item-header b {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .russian-programm-item-header span {
+        font-size: 12px;
+    }
+
+    .about-info h2 br {
+        display: none;
+    }
+
+    .about-info h2 {
+        font-size: 18px;
+    }
+
+    .about-info p {
+        font-size: 11px;
+    }
+
+    .about-info-direktor {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .about-info-direktor-text::before {
+        height: 145px;
+    }
+
+    .about-support .container {
+        gap: 0;
+    }
+
+    .about-support button {
+        font-size: 13px;
+    }
+
+    .about-city h5 {
+        font-size: 18px;
+    }
+
+    .about-city {
+        padding: 35px 0;
+        border-radius: 40px;
+    }
+
+    .about-city-row {
+        gap: 20px;
+    }
+
+    .blog-text-buttons button {
+        padding: 18px 22px;
+    }
+
+    .blog-row-item {
+        width: 100%;
+    }
+
+    .blog-text h4 {
+        font-size: 20px;
+    }
+
+    .typiacal-info-text h2 {
+        font-size: 20px;
+    }
+
+    .russian-competition-header {
+        gap: 0;
+    }
+
+    .russian-competition-header {
+        padding-top: 0;
+    }
+
+    .typiacal-info-text p, .typiacal-info-text--2 p, .typiacal-paragraf span {
+        font-size: 11px;
+    }
+
+    .typiacal-info-text--2 ul li {
+        font-size: 10px;
+    }
+
+    .typiacal-info-text--2 b {
+        font-size: 14px;
+    }
+
+    .typiacal-paragraf-footer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .jury-row-text b {
+        font-size: 18px;
+    }
+
+    .jury-row {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .jury-row-img img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .jury-row-img {
+        width: 100%;
+    }
+
+    .jury-row-text-ul li::before {
+        display: none;
+    }
+
+    .jury-row-text-ul li {
+        font-size: 11px;
+    }
+
+    .jury-column h4 {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .jury-column .container {
+        gap: 20px;
+    }
+
+    .jury-row-img img {
+        width: 150px;
+    }
+
+    .jury-column {
+        z-index: -1;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+       padding-top: 40px;
+    }
+
+    .header-logo img {
+        width: 80%;
+    }
+
+    .turnir-last h5 {
+        font-size: 20px;
+    }
+
+    .about-city-row .col-2_5 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-city-row .col-2_5 img {
+        width: 50%;
+    }
+
+    .about-city-row {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .about-city-row .col-2_5 span {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .turnir-2-info h2 {
+        font-size: 20px;
+    }
+
+    .festival-info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .festival-info p {
+        font-size: 14px;
+    }
+
+    .blog-text-buttons button {
+        padding: 6px 0;
+    }
+
+    .blog-text-buttons-item.botton-border-4 {
+        padding: 0 6px; 
+        font-size: 13px;
+    }
+
+    .festival-img-column-text p {
+        padding-right: 0;
+    }
+
+    .festival-last-slider-item-footer span {
+        font-size: 11px;
+        padding-right: 0;
+    }
+
+    .festival-last-slider-prev, .festival-last-slider-next {
+        display: none !important;
+    }
+
+    .festival-last h4 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .festival-last-slider {
+        padding-bottom: 20px;
+    }
+
+    .festival-last-slider-item {
+        padding: 0;
+    }
+
+    .award-price-row {
+        margin: 0;
+    }
+
+    .award-price h4 {
+        font-size: 22px;
+        margin: 25px 0;
+    }
+
+    .award-price-row {
+        gap: 20px 0;
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Список страниц</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      margin: 0;
+      background: rgb(99, 99, 99);
+    }
+
+    .custom-select {
+      position: relative;
+      width: 500px;
+      user-select: none;
+      font-family: sans-serif;
+      z-index: 10;
+    }
+
+    .selected {
+      border: 1px solid #ccc;
+      padding: 10px 15px;
+      background-color: #f9f9f9;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      color: #4e4e4e;
+    }
+
+    .selected .arrow {
+      font-size: 0.8em;
+      margin-left: 10px;
+    }
+
+    .options {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      right: 0;
+      display: none;
+      max-height: 300px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .option {
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+
+    .option:last-child {
+      border-bottom: none;
+    }
+
+    .option:hover {
+      background-color: #f0f0f0;
+    }
+
+    .option a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="custom-select" id="select">
+    <div class="selected">
+      <span>Выберите страницу</span>
+      <span class="arrow">&#9662;</span>
+    </div>
+    <div class="options">
+      <div class="option" data-value="1">
+        <a href="../pages/index.html">Первая страница</a>
+      </div>
+      <div class="option" data-value="2">
+        <a href="../pages/our-pages.html">Вторая страница</a>
+      </div>
+      <div class="option" data-value="3">
+        <a href="../pages/pages-3.html">Третья‑Четвёртая страница</a>
+      </div>
+      <div class="option" data-value="4">
+        <a href="../pages/about.html">Пятая‑Шестая страница</a>
+      </div>
+      <div class="option" data-value="5">
+        <a href="../pages/blog.html">Седьмая страница</a>
+      </div>
+      <div class="option" data-value="6">
+        <a href="../pages/typical.html">Восьмая страница</a>
+      </div>
+      <div class="option" data-value="7">
+        <a href="../pages/jury.html">Девятая страница</a>
+      </div>
+      <div class="option" data-value="8">
+        <a href="../pages/turnir.html">Десятая страница</a>
+      </div>
+      <div class="option" data-value="9">
+        <a href="../pages/turnir-2.html">Одиннадцатая страница</a>
+      </div>
+      <div class="option" data-value="10">
+        <a href="../pages/festival-page.html">Двенадцатая‑Тринадцатая‑Четырнадцатая страница</a>
+      </div>
+      <div class="option" data-value="11">
+        <a href="../pages/award.html">Пятнадцатая страница</a>
+      </div>
+      <div class="option" data-value="12">
+        <a href="../pages/contacts.html">Шестнадцатая страница</a>
+      </div>
+      <div class="option" data-value="13">
+        <a href="../pages/404.html">Семнадцатая страница</a>
+      </div>
+      <div class="option" data-value="14">
+        <a href="../pages/confidentiality.html">Восемнадцатая страница</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const select   = document.getElementById('select');
+      const selected = select.querySelector('.selected');
+      const options  = select.querySelector('.options');
+      const items    = select.querySelectorAll('.option');
+      const arrow    = selected.querySelector('.arrow'); 
+    
+      selected.addEventListener('click', () => {
+        const isOpen = select.classList.toggle('open');
+        options.style.display = isOpen ? 'block' : 'none';
+        arrow.style.transform = isOpen ? 'rotate(180deg)' : 'rotate(0)';
+      });
+    });
+ </script>
+</body>
+</html>

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevskie zvezd</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/media.css">
+</head>
+<body>
+    <header class="header header-2">
+        <div class="container-lg">
+            <div class="header-row">
+                <div class="header-logo">
+                    <a href=""><img src="../img/logo-header.svg" alt=""></a>
+                </div>
+                <nav class="header-nav">
+                    <a href="">Наши конкурсы-фестивали</a>
+                    <a href="">О проекте</a>
+                    <a href="">Блог</a>
+                    <a href="">Прошедшие фестивали</a>
+                    <a href="">Жюри</a>
+                    <a href="">Контакты</a>
+                </nav>
+               <div class="header-social-contact">
+                    <div class="header-social-icon">
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                    </div>
+                    <div class="header-telefon">
+                        <a href="">+7 (495) 540-00-00</a>
+                    </div>
+                    <div class="header-button">
+                        <button>Подать заявку</button>
+                    </div>
+               </div>
+               <div class="menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
+                    <ul class="menu-list">
+                        <li><a href="./index.html" class="menu-item">Наши конкурсы-фестивали</a><li>
+                        <li><a href="index.html#strategeis" class="menu-item">О проекте</a><li>
+                        <li><a href="index.html#faq" class="menu-item">Блог</a><li>
+                        <li><a href="index.html#home-form" class="menu-item">Прошедшие фестивали</a><li>
+                        <li><a href="index.html#home-form" class="menu-item">Жюри</a><li>
+                        <li><a href="index.html#home-form" class="menu-item">Контакты</a><li>
+                        <li class="menu-list-telefon"><a href="">+7 (495) 540-00-00</a></li>
+                        <li class="li-modal"> 
+                            <button>Подать заявку</button>
+                        </li>
+                        <li class="header-social-icon">
+                            <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                            <a href=""><img src="../img/vk-blue.svg" alt=""></a>
+                            <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                            <a href=""><img src="../img/vk-blue.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </header>   
+    <div class="russian-competition">
+        <img src="../img/tri-color.png" alt="" class="tri-color tri-color-1 anime anime-right">
+        <img src="../img/tri-color-2.png" alt="" class="tri-color tri-color-2 anime anime-left">
+        <img src="../img/tri-color-3.png" alt="" class="tri-color tri-color-3 anime anime-top">
+        <div class="container">
+            <div class="russian-competition-header anime anime-top">
+                <b>Конкурсы-фестивали</b>
+                <span>Всероссийский конкурс-фестиваль искусств “Ассамблея Талантов”</span>
+            </div>
+            <h3 class="anime anime-top">Всероссийский конкурс-<br>фестиваль искусств “Ассамблея<br> Талантов”</h3>
+            <div class="russian-competition-carts anime anime-top">
+                <div class="russian-competition-carts-item">
+                    <img src="../img/location-img.svg" alt="">
+                    <span>г. Санкт-Петербург</span>
+                </div>
+                <div class="russian-competition-carts-item">
+                    <img src="../img/location-img.svg" alt="">
+                    <span>21.04 - 23.03 (3 дня / 2 ночи)</span>
+                </div>
+            </div>
+            <b class="russian-competition-price anime anime-top">от <span>5 999 руб.</span></b>
+            <div class="russian-competition-footer russian-competition-footer-2 anime anime-top">
+                <button id="openModalBtn">Подать заявку</button>
+                <b>До завершения приема заявок <span>осталось 8 дней</span></b>
+            </div>
+            <div class="russian-competition-price-xx">
+                <div class="russian-competition-footer anime anime-top">
+                    <button id="openModalBtn">Подать заявку</button>
+                    <b>До завершения приема заявок <span>осталось 8 дней</span></b>
+                    <b class="russian-competition-price anime anime-top">от <span>5 999 руб.</span></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-1">
+        <div class="container container-bg">
+            <div class="modal-1-header">
+                <h5>Подать заявку на <b>Всероссийский конкурс-фестиваль<br> искусств “Ассамблея Талантов”</b></h5>
+                <div class="modal-1-header-img">
+                    <img src="../img/close.svg" alt="">
+                </div>
+            </div>
+            <div class="modal-1-row">
+                <span><img src="../img/location-img.svg" alt="">Место проведения: г. Санкт-Петербург</span>
+                <span><img src="../img/calendar--2.svg" alt="">Программа на 3 дня и 2 ночи с 21.04 по 23.03</span>
+            </div>
+            <div class="home-form-row home-form-row--1">
+                <input type="text" placeholder="Дата фестиваля">
+                <input type="text" placeholder="ФИО руководителя">
+                <input type="number" placeholder="Телефон">
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div class="home-form-row home-form-row--2">
+                <button class="home-form-row-button">Подать заявку</button>
+                <div class="home-label">
+                    <input type="checkbox" class="form-checkbox" id="test">
+                    <label class="form-label" for="test">Нажимая на кнопку “Подать заявку”,  я соглашаюсь на обработку <a href="">персональных данных</a></label> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-2">
+        <div class="container container-bg">
+            <div class="modal-2-header">
+                <h5>Хотите участвовать?<span>Оставьте заявку на участие в фестивале, и мы свяжемся<br>
+                    с Вами в самое ближайшее время!</span></h5>
+                <div class="modal-2-header-img">
+                    <img src="../img/close.svg" alt="">
+                </div>
+            </div>
+            <div class="home-form-row home-form-row--1">
+                <input type="text" placeholder="Дата фестиваля">
+                <input type="text" placeholder="ФИО руководителя">
+                <input type="number" placeholder="Телефон">
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div class="home-form-row home-form-row--2">
+                <button class="home-form-row-button">Подать заявку</button>
+                <div class="home-label">
+                    <input type="checkbox" class="form-checkbox" id="test">
+                    <label class="form-label" for="test">Нажимая на кнопку “Подать заявку”,  я соглашаюсь на обработку <a href="">персональных данных</a></label> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="russian-info">
+        <div class="container">
+            <div class="russian-info-header">
+                <button class="russian-info-header-button btn_active">Описание  проекта</button>
+                <button class="russian-info-header-button">Программа “3 дня”</button>
+                <button class="russian-info-header-button">Программа “4 дня”</button>
+                <button class="russian-info-header-button">Список экскурсий</button>
+                <button class="russian-info-header-button">Положение фестиваля</button>
+            </div>
+            <div class="open">
+                <div class="russian-info-text anime anime-bottom" style="display: none;">
+                    <p>Любимый многими концертный зал – Дом офицеров на Литейном проспекте откроет свои двери для представителей хореографического,<br> театрального, вокально- инструментального искусств, а также представителей цирковых и спортивных жанров. Большая сцена Дома офицеров<br> одинаково гостеприимна как для больших коллективов, так и для солистов, дуэтов и трио.</p>
+                    <b>Кому будет интересно?</b>
+                    <p class="russian-info-text-p-last">Любимый многими концертный зал – Дом офицеров на Литейном проспекте откроет свои двери для представителей<br> хореографического, театрального, вокально- инструментального искусств, а также представителей цирковых и спортивных жанров.<br> Большая сцена Дома офицеров одинаково гостеприимна как для больших коллективов, так и для солистов, дуэтов и трио.</p>
+                    <div class="container container-bg anime anime-bottom  anime anime-top">
+                        <h6>Хотите участвовать?</h6>
+                        <span>Оставьте заявку на участие в фестивале, и мы свяжемся<br>
+                            с Вами в самое ближайшее время!</span>
+                        <div class="home-form-row home-form-row--1">
+                            <input type="text" placeholder="Дата фестиваля">
+                            <input type="text" placeholder="ФИО руководителя">
+                            <input type="number" placeholder="Телефон">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="home-form-row home-form-row--2">
+                            <button class="home-form-row-button">Подать заявку</button>
+                            <div class="home-label">
+                                <input type="checkbox" class="form-checkbox" id="test">
+                                <label class="form-label" for="test">Нажимая на кнопку “Подать заявку”,  я соглашаюсь на обработку <a href="">персональных данных</a></label> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="russian-programm" style="display: block;">
+                    <div class="russian-programm-item-header anime anime-top">
+                        <b>21.04</b>
+                        <span>День 1. Прибытие в Санкт-Петербург </span>
+                    </div>
+                    <div class="russian-programm-item anime anime-top">
+                        <div class="russian-programm-item-img">
+                            <img src="../img/circle-table.svg" alt="">
+                        </div>
+                        <div class="russian-programm-item-text">
+                            <b>Прибытие группы</b>
+                            <p>Встреча групп на ж/д-вокзале*<br>
+                                (Рекомендуемое время прибытия 08:00-12:00, Московский вокзал)<br>
+                                Посадка в автобус</p>
+                            <span>*При более раннем/позднем заезде трансфер рассчитывается индивидуально</span>
+                        </div>
+                    </div>
+                    <div class="russian-programm-item anime anime-top">
+                        <div class="russian-programm-item-img">
+                            <img src="../img/circle-table.svg" alt="">
+                        </div>
+                        <div class="russian-programm-item-text">
+                            <b>Обзорная экскурсия</b>
+                            <p>Экскурсия по городу с посещением основных достопримечательностей. Вы     увидите Дворцовую площадь, стрелку<br>
+                                Васильевского острова и Невский проспект, Зимний дворец, Казанский и Исаакиевский соборы, Адмиралтейство,<br>
+                                знаменитые египетские сфинксы, памятник Петру I («Медный всадник») и многое другое.<br>
+                                После экскурсии трансфер в отель.
+                            </p>
+                            <span class="russian-programm-item-text-span--1">**Трансфер и обзорная экскурсия предоставляется для участников, проживающих по программе 3 дня/2 ночи, при<br> условии заезда группы от 20 человек. Заселение в гостиницу после 14:00***</span>
+                            <span>***Раннее заселение предоставляется только при условии оплаты дополнительных суток.</span>
+                        </div>
+                    </div>
+                    <div class="russian-programm-item anime anime-top" style="border: none;">
+                        <div class="russian-programm-item-img">
+                            <img src="../img/circle-table.svg" alt="">
+                        </div>
+                        <div class="russian-programm-item-text">
+                            <b>Организационное собрание</b>
+                            <p>Организационное собрание с руководителями коллективов<br>
+                                Свободное время. По желанию – экскурсии (за дополнительную плату)<br>
+                                Ночь в отеле.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="russian-programm-item-header anime anime-top">
+                        <b>22.04</b>
+                        <span>День 2. Конкурсный день </span>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-2 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span>Завтрак в отеле</span></b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-2 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span>Трансфер на фестиваль</span></b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Репетиции</b>
+                            <p>Начало конкурсного дня. Репетиции, подготовка к конкурсу-фестивалю.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Выступления участников</b>
+                            <p>Начало конкурсного дня. Репетиции, подготовка к конкурсу-фестивалю.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Круглый стол</b>
+                            <p>Круглый стол с членами жюри для руководителей и педагогов.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Мастер-классы</b>
+                            <p>Круглый стол с членами жюри для руководителей и педагогов.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Гала-концерт</b>
+                            <p>Начало конкурсного дня. Репетиции, подготовка к конкурсу-фестивалю.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Церемония награждения участников</b>
+                            <p>Начало конкурсного дня. Репетиции, подготовка к конкурсу-фестивалю.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b class="align-items-start"><img src="../img/circle-table.svg" alt="">
+                            <span><b class="russian-programm-item-3-span">*По желанию – экскурсия «Тайны прелести вечернего Петербурга»</b>
+                            <p>Самооснование Санкт-Петербурга овеяно мистикой и тайнами. За красивыми фасадами города скрывается<br>
+                                множество секретов, необъяснимых событий, тайн и легенд.<br>
+                                Вам откроются тайны города, о которых умалчивают все официальные источники.</p>
+                            <b class="russian-programm-item-3-b">*за дополнительную плату</b></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Трансфер в отель</b>
+                            <p>Ночь в отеле.</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item-header anime anime-top">
+                        <b>23.04</b>
+                        <span>День 3. Выезд</span>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top">
+                        <b><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Завтрак в отеле</b>
+                            <p>Выезд из гостиницы не позднее 12.00</p></span>
+                        </b>
+                    </div>
+                    <div class="russian-programm-item russian-programm-item-3 anime anime-top" style="border: none; padding: 0; margin-bottom: 42px;">
+                        <b class="align-items-start"><img src="../img/circle-table.svg" alt=""><span><b class="russian-programm-item-3-span">Трансфер на ж/д вокзал или в аэропор</b>
+                            <b class="russian-programm-item-3-b">*Позднее выселение возможно только за дополнительную плату<br>Для уезжающих вечером возможны экскурсии (экскурсии и обед за дополнительную плату):</b>
+                        </span>
+                        </b>
+                    </div>
+                    <button class="russian-programm-item-btn anime anime-right">Скачать программу</button>
+                    <div class="russian-programm-container anime anime-bottom">
+                        <b>Стоимость фестивального тура</b>
+                        <span>При группе 15+1 место предоставляется <b>бесплатно</b></span>
+                        <span>21.04 – 23.04.2023, 3 дня/ 2 ночи</span>
+                    </div>
+                    <div class="russian-programm-bilets anime anime-top">
+                        <div class="row russian-programm-bilets-header">
+                            <div class="col-4"><span>Тип программы</span></div>
+                            <div class="col-4"><span>Размещение</span></div>
+                            <div class="col-4 russian-programm-bilets-col"><span>Стоимость, с человека</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 col-lg-12"><b>Программа «Эконом». Отель «Турист» 2*</b></div>
+                            <div class="col-4 col-lg-12"><span>4-х и 5-ти местное размещение / удобства на этаже /<br> завтрак «шведский стол»</span></div>
+                            <div class="col-4 col-lg-12 russian-programm-bilets-col"><span>3 750 руб</span><button>Выбрано</button></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 col-lg-12"><b>Программа «Эконом». Отель «Турист» 2*</b></div>
+                            <div class="col-4 col-lg-12"><span>4-х и 5-ти местное размещение / удобства на этаже /<br> завтрак «шведский стол»</span></div>
+                            <div class="col-4 col-lg-12 russian-programm-bilets-col"><span>3 750 руб</span><button>Выбрать</button></div>
+                        </div>
+                    </div>
+                    <div class="russian-programm-included anime anime-top">
+                        <div class="russian-programm-included-item">
+                            <b>В стоимость входит:</b>
+                            <ul>
+                                <li>Проживание 2 ночи в отеле.</li>
+                                <li>2 завтрака в отеле</li>
+                                <li>Трансфер Московский вокзал – отель – Московский вокзал (от 20 чел. в группе)*</li>
+                                <li>Трансферы в конкурсный день отель-зал-отель</li>
+                            </ul>
+                            <span>*за трансферы от других ж/д станций/аэропорта, и в не рекомендованное время прибытия, а также за трансфер групп, менее 20 человек, взимается доплата</span>
+                        </div>
+                        <div class="russian-programm-included-item">
+                            <b>Дополнительно оплачивается:</b>
+                            <ul>
+                                <li>Аккредитационный взнос</li>
+                                <li>Билеты (ж/д или авиа)</li>
+                                <li>Медицинская страховка</li>
+                                <li>Экскурсии за дополнительную плату</li>
+                                <li>Трансферы для индивидуалов</li>
+                                <li>Доп. сутки проживания с завтраком</li>
+                                <li>Ранний заезд или поздний выезд по согласованию с отелем</li>
+                                <li>Обед и ужины: <br> 
+                                    - в кафе города: 450 рублей<br>
+                                    - в отеле: 650 рублей
+                                </li>
+                                <li>Страхование от невыезда</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container container-bg anime anime-bottom">
+                        <h6>Хотите участвовать?</h6>
+                        <span>Оставьте заявку на участие в фестивале, и мы свяжемся<br>
+                            с Вами в самое ближайшее время!</span>
+                        <div class="home-form-row home-form-row--1">
+                            <input type="text" placeholder="Дата фестиваля">
+                            <input type="text" placeholder="ФИО руководителя">
+                            <input type="number" placeholder="Телефон">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="home-form-row home-form-row--2">
+                            <button class="home-form-row-button">Подать заявку</button>
+                            <div class="home-label">
+                                <input type="checkbox" class="form-checkbox" id="test">
+                                <label class="form-label" for="test">Нажимая на кнопку “Подать заявку”,  я соглашаюсь на обработку <a href="">персональных данных</a></label> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-form home-form-2">
+        <div class="home-form-bg">
+            <img src="../img/stars-bggggggggg.png" alt="" class="bg-star bg-star-2">
+            <img src="../img/bg-stars.png" alt="" class="bg-star-blur">
+        </div>
+        <div class="container home-form-2-container">
+            <h6 class="anime anime-right">Прошедшие фестивали</h6>
+            <div class="home-form-2-arrow">
+                <button class="arrow-prev-3"><img src="../img/up-arrow.svg" alt=""></button>
+                <button class="arrow-next-3"><img src="../img/up-arrow.svg" alt="" style="transform: rotate(-180deg);"></button>
+            </div>
+            <div class="row home-form-2-row slider-3 anime anime-top">
+                <a href="#" class="col col-4 slider_item">
+                    <div class="home-form-2-row-item">
+                        <img src="../img/girl-2.png" alt="">
+                        <span><img src="../img/location- 2.svg" alt=""><b>г. Санкт-Петербург</b></span>
+                    </div>
+                </a>
+                <a href="#" class="col col-4 slider_item">
+                    <div class="home-form-2-row-item">
+                        <img src="../img/girl-2.png" alt="">
+                        <span><img src="../img/location- 2.svg" alt=""><b>г. Санкт-Петербург</b></span>
+                    </div>
+                </a>
+                <a href="#" class="col col-4 slider_item">
+                    <div class="home-form-2-row-item">
+                        <img src="../img/girl-2.png" alt="">
+                        <span><img src="../img/location- 2.svg" alt=""><b>г. Санкт-Петербург</b></span>
+                    </div>
+                </a>
+                <a href="#" class="col col-4 slider_item">
+                    <div class="home-form-2-row-item">
+                        <img src="../img/girl-2.png" alt="">
+                        <span><img src="../img/location- 2.svg" alt=""><b>г. Санкт-Петербург</b></span>
+                    </div>
+                </a>
+                <a href="#" class="col col-4 slider_item">
+                    <div class="home-form-2-row-item">
+                        <img src="../img/girl-2.png" alt="">
+                        <span><img src="../img/location- 2.svg" alt=""><b>г. Санкт-Петербург</b></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-lg">
+            <img src="../img/blur-star-3.png" alt="" class="blur-star-3">
+            <img src="../img/blur-star-2.png" alt="" class="blur-star-2">
+            <img src="../img/blur-star.png" alt="" class="blur-star-1">
+            <div class="footer-row">
+                <div class="footer-row-item col-xxl-6 col-md-12">
+                    <b>Контакты</b>
+                    <span class="footer-row-item-span">+7 (495) 540-00-00<p>Присоединяйся к нам</p></span>
+                    <span>neva.stars@mail.ru<p>Присоединяйся к нам</p></span>
+                </div>
+                <div class="footer-row-item col-xxl-6 col-md-12">
+                    <b>Социальные сети</b>
+                    <p class="footer-row-item-p">Присоединяйся к нам</p>
+                    <div class="footer-sochial-icon">
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                        <a href=""><img src="../img/whatsapp blue.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-row-item col-xxl-6 col-md-12">
+                    <b>Новости</b>
+                    <div class="footer-row-item-input">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Ваша имя">
+                        <button>Подписаться</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row-2">
+                <div class="footer-row-2-item">
+                    <a href="">©2023 ТО АртКелен: конкурсы-фестивали</a>
+                </div>
+                <div class="footer-row-2-item">
+                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Положение фестивалей</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../script/slider.js"></script>
+    <script src="../script/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll('.russian-info-header-button');
+        const contentBlocks = document.querySelectorAll('.open > div');
+
+        buttons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+                contentBlocks.forEach(block => block.style.display = 'none');
+
+                contentBlocks[index].style.display = 'block';
+
+                buttons.forEach(btn => btn.classList.remove('btn_active'));
+
+                button.classList.add('btn_active');
+                });
+            });
+        });
+
+        const animatedBlocks = document.querySelectorAll('.anime');
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+            });
+        }, {
+        threshold: 0.3,
+        // rootMargin: '0px 0px -20% 0px'
+        });
+
+        animatedBlocks.forEach(block => observer.observe(block));
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.querySelector('.modal-1');
+            const openBtn = document.getElementById('openModalBtn'); // кнопка вне модалки
+            const closeBtn = document.querySelector('.modal-1-header-img');
+
+            // Открытие
+            openBtn.addEventListener('click', () => {
+                modal.classList.add('active');
+            });
+
+            // Закрытие по иконке
+            closeBtn.addEventListener('click', () => {
+                modal.classList.remove('active');
+            });
+
+            // Закрытие по клику вне содержимого
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.querySelector('.modal-2');
+            const openBtn = document.getElementById('openModalBtn-2'); // кнопка вне модалки
+            const closeBtn = document.querySelector('.modal-2-header-img');
+
+            // Открытие
+            openBtn.addEventListener('click', () => {
+                modal.classList.add('active');
+            });
+
+            // Закрытие по иконке
+            closeBtn.addEventListener('click', () => {
+                modal.classList.remove('active');
+            });
+
+            // Закрытие по клику вне содержимого
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
